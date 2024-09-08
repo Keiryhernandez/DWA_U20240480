@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TIENDA OLINE DE ROPA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  
+ <!-- Barra de navegación -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">TIENDA OLINE DE ROPA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ">
+            <a class="nav-link active text-white" aria-current="page" href="#">COLECCION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">MUJER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">HOMBRE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">NIÑOS/AS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <!-- fotos -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Img/foto01.jpg" class="d-block w-100 " alt="Ropa de mujer">
+      </div>
+      <div class="carousel-item">
+        <img src="Img/Foto02.jfif" class="d-block w-100 " alt="Ropa de Hombre">
+      </div>
+      <div class="carousel-item">
+        <img src="Img/foto03.jpg" class="d-block w-100 "  alt="Ropa para niños/as">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <!-- Cards de información -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card">
+          <img src="Img/Cards_M.jpg" class="card-img-top" alt="Card 1">
+          <div class="card-body">
+            <h5 class="card-title">Colección Exclusiva para Mujeres</h5>
+            <p class="card-text">Navega por la nueva colección de mujer y elige tus prendas favoritas para lucir un look increible</p>
+            <a href="#" class="btn btn-primary bg-dark">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card">
+          <img src="Img/Cards_H.jpg" class="card-img-top" alt="Card 2">
+          <div class="card-body">
+            <h5 class="card-title">Colección Exclusiva para Hombres</h5>
+            <p class="card-text">Navega por la nueva colección de hombre y elige tus prendas favoritas.</p>
+            <a href="#" class="btn btn-primary bg-dark">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card">
+          <img src="Img/Cards_N.jpg" class="card-img-top" alt="Card 3">
+          <div class="card-body">
+            <h5 class="card-title">Colección Exclusiva para los pequeños del hogar</h5>
+            <p class="card-text">Ropa infantil en línea para vestidos bonitos y a la moda, ropa casual, básicos, accesorios y más para los más pequeños.</p>
+            <a href="#" class="btn btn-primary bg-dark">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Formulario de contacto -->
+  <div class="container mt-5 ">
+    <h2 class="text-center ">Contáctanos</h2>
+    <form class="mx-auto w-50 ">
+      <div class="mb-3">
+        <label for="name" class="form-label">Nombre</label>
+        <input type="text" class="form-control  bg-dark" id="name" placeholder="Escriba su  nombre">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control   bg-dark " id="email" placeholder="Escriba correo electrónico">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Mensaje</label>
+        <textarea class="form-control  bg-dark" id="message" rows="3" placeholder="Puedes dejarnos tu mensaje"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary bg-dark d-block mx-auto">Enviar</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center text-lg-start mt-5">
+    <div class="container p-4 text-center">
+      <p>&copy;Tienda online de Ropa. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
