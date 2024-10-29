@@ -1,0 +1,21 @@
+body{
+
+    background-color: #faeaef ; 
+}
+.navbar-custom {
+    background-color: #800020 ; 
+}
+.navbar-custom .navbar-nav .nav-link, .navbar-custom .navbar-brand {
+    color: #feffff ; 
+}
+.btn-wine {
+    background-color: #800020;
+    color: #ffffff;
+    border: none;
+}
+.btn-wine:hover {
+    background-color: #a00028;
+    color: #ffffff;
+}
+
+
